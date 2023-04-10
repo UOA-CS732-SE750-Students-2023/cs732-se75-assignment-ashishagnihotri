@@ -12,11 +12,11 @@ Get started with basics of React, checkout the [React documentation](https://rea
 
 * Pages (`src/pages`) contains 3 JS files that help routing the user through all the 3 types of graphs used in the project. These 3 files further go to their respective graph component types
 
-Documentation for the [CoinbaseAPI] (https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductcandles) used to make the time Series Chart
+Documentation for the [Coinbase API] (https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductcandles) used to make the time Series Chart
 
 #### The Link to the 3 types of graphs that were used in this project
-1. [LineChart] (https://plotly.com/javascript/line-charts/)
-2. [TopographicalChart] (https://plotly.com/javascript/3d-surface-plots/)
+1. [Line Chart] (https://plotly.com/javascript/line-charts/)
+2. [Topographical Chart] (https://plotly.com/javascript/3d-surface-plots/)
 3. [TimeSeriesChart] (https://plotly.com/javascript/time-series/)
 
 
@@ -37,4 +37,3 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
