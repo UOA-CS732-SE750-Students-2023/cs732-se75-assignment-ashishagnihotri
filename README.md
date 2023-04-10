@@ -13,6 +13,8 @@ Get started with building graphs with React using the react-plotly.js library. R
 
 * Pages (`src/pages`) contains 3 JS files that help routing the user through all the 3 types of graphs used in the project. These 3 files further go to their respective graph component types
 
+* index.html (`public`) contains sample, untouched html code that project came with time of initialization
+
 Documentation for the Coinbase API (https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductcandles) used to make the time Series Chart
 
 #### The Link to the 3 types of graphs that were used in this project
