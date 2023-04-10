@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+# Building Quick Interactive Graphs with Plotly.js
+
+Get started with building graphs with React using the react-plotly.js library. Requisite information is mentioned in the Documentations section
+
+## Documentations
+Get started with the basics of [plotly.js](https://plotly.com/javascript/)
+Checkout the documentation for [react-plotly.js](https://plotly.com/javascript/react/) which is a react friendly plotly.js library very similar to plotly.js (this is the library that is used in the project)
+Get started with basics of React, checkout the [React documentation](https://reactjs.org/).
+
+## Project Structure 
+* Components (`src/components`) contains 4 JS files, 3 are used for making the components responsible for making the graphs (types of graphs used and their documentation can be found in the section below). 1 JS file contains data used in the other 3 components
+
+* Pages (`src/pages`) contains 3 JS files that help routing the user through all the 3 types of graphs used in the project. These 3 files further go to their respective graph component types
+
+Documentation for the [CoinbaseAPI] (https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductcandles) used to make the time Series Chart
+
+#### The Link to the 3 types of graphs that were used in this project
+1. [LineChart] (https://plotly.com/javascript/line-charts/)
+2. [TopographicalChart] (https://plotly.com/javascript/3d-surface-plots/)
+3. [TimeSeriesChart] (https://plotly.com/javascript/time-series/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### How to run
+#### Prerequisites
+Install [Node.js](https://nodejs.org/en) which includes [Node Package Manager] (https://docs.npmjs.com/getting-started)
+
+#### Setting up the Project
+Just install the dependencies already available in the packag.json file by running the command
+`npm install`
 
 In the project directory, you can run:
-
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
