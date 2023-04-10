@@ -39,15 +39,15 @@ const LineChartPlotly = () => {
       fill: 'tonexty'
     },
     
-    // {
-    //   x: xData,
-    //   y: randomYData(5),
-    //   type: 'scatter',
-    //   mode: 'lines',
-    //   line: { color: 'Firebrick'},
-    //   name: 'Line 3',
-    //   fill: 'tonexty'
-    // },
+    {
+      x: xData,
+      y: randomYData(5),
+      type: 'scatter',
+      mode: 'lines',
+      line: { color: 'Firebrick'},
+      name: 'Line 3',
+      fill: 'tonexty'
+    },
   ];
 
   const layout = {
